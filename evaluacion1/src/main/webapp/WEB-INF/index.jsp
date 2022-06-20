@@ -33,7 +33,7 @@
     <form:label path="modelo" class="form-label">Modelo: </form:label>
     <form:input path="modelo" class="form-control"/>
     <br> <!-- saldo de linea -->
-    <form:label path="capacidad" class="form-label">Capacidad: </form:label>
+    <form:label path="capacidad" class="form-label">Capacidad en kg.: </form:label>
     <form:input type="number" path="capacidad" class="form-control"/>
     <br>
     <!-- submit para el envío de información -->

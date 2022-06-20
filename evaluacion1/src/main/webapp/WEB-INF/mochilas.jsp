@@ -25,7 +25,7 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Modelo</th>
-            <th scope="col">Capacidad</th>
+            <th scope="col">Capacidad en kg.:</th>
             <th scope="col">Color</th>
         </tr>
         </thead>
