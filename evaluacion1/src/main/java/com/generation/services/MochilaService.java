@@ -22,4 +22,12 @@ public class MochilaService {
     public List<Mochila> findAll() {
         return mochilaRepository.findAll();
     }
+
+    public Mochila buscarId(Long id) {
+        return mochilaRepository.findById(id).get();
+    }
+
+    public void eliminarPorId(Long id) {
+        mochilaRepository.deleteById(id);
+    }
 }

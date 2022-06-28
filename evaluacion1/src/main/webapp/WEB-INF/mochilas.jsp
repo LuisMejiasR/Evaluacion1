@@ -27,6 +27,7 @@
             <th scope="col">Modelo</th>
             <th scope="col">Capacidad en kg.:</th>
             <th scope="col">Color</th>
+            <th scope="col">Acciones</th>
         </tr>
         </thead>
         <tbody>
@@ -37,7 +38,8 @@
                 <td>${mochila.modelo}</td>
                 <td>${mochila.capacidad}</td>
                 <td>${mochila.color}</td>
-
+                <td><a class="btn btn-warning" href="editar/${mochila.id}" role="button">Editar</a></td>
+                <td><a class="btn btn-danger" href="eliminar/${mochila.id}" role="button">Eliminar</a></td>
             </tr>
         </c:forEach>
 
